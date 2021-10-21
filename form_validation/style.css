@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  padding: 25px;
+  background: linear-gradient(to right, #aa076b, #61045f);
+}
+
+form{
+  background: #fefefe;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 45px auto 0;
+  padding: 20px 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #aa076b;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  color: #61045f;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: 0;
+  border: 3px solid #666565;
+  
+}
+
+small {
+  color: #e74d4d;
+  display: none;
+}
+
+.form-control.error input {
+  border: 3px solid #e74d4d;
+}
+
+.form-control.success input {
+  border: 3px solid #8be74d;
+}
+
+.form-control.error small{
+  display: block;
+}
+
+button{
+  background: #aa076b;
+  display: block;
+  margin-top: 25px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  color: #fefefe;
+  font-weight: 600;
+  margin: 25px auto 0;
+}
